@@ -1,3 +1,9 @@
+mando (0.6.4-2) unstable; urgency=medium
+
+  * Update debian/copyright for mando/napoleon
+
+ -- Neil Williams <codehelp@debian.org>  Tue, 09 Oct 2018 16:18:22 +0100
+
 mando (0.6.4-1) unstable; urgency=medium
 
   * Initial release. (Closes: #910564: ITP: mando -- command line
