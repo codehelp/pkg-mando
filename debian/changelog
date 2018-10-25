@@ -1,8 +1,14 @@
-mando (0.6.4-3) unstable; urgency=medium
+mando (0.6.4-4) unstable; urgency=medium
 
   * Fix in-build tests command. (Closes: #916703)
 
  -- Neil Williams <codehelp@debian.org>  Sun, 06 Jan 2019 20:57:39 +0000
+
+mando (0.6.4-3) unstable; urgency=medium
+
+  * Fix broken symlink to _static/underscore.js (Closes: #911477)
+
+ -- Neil Williams <codehelp@debian.org>  Thu, 25 Oct 2018 14:12:43 +0100
 
 mando (0.6.4-2) unstable; urgency=medium
 
