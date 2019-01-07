@@ -2,7 +2,7 @@ mando (0.6.4-4) unstable; urgency=medium
 
   * Fix in-build tests command. (Closes: #916703)
 
- -- Neil Williams <codehelp@debian.org>  Sun, 06 Jan 2019 20:57:39 +0000
+ -- Neil Williams <codehelp@debian.org>  Mon, 07 Jan 2019 19:51:54 +0000
 
 mando (0.6.4-3) unstable; urgency=medium
 
