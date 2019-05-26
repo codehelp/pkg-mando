@@ -1,0 +1,19 @@
+Description: Remove unsupported travis test versions
+Author: Neil Williams <codehelp@debian.org>
+
+---
+
+Origin: https://github.com/rubik/mando/pull/45
+Last-Update: 2019-05-26
+
+--- mando-0.6.4.orig/.travis.yml
++++ mando-0.6.4/.travis.yml
+@@ -1,8 +1,6 @@
+ language: python
+ python:
+-    - "2.6"
+     - "2.7"
+-    - "3.3"
+     - "3.4"
+     - "3.5"
+     - "3.6"
