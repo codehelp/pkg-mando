@@ -1,3 +1,9 @@
+mando (0.6.4-5) UNRELEASED; urgency=medium
+
+  * Migrate to the Debian Python team.
+
+ -- Neil Williams <codehelp@debian.org>  Sun, 26 May 2019 14:22:16 +0100
+
 mando (0.6.4-4) unstable; urgency=medium
 
   * Fix in-build tests command. (Closes: #916703)
