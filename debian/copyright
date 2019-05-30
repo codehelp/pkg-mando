@@ -6,7 +6,7 @@ Files: *
 Copyright: 2013 Michele Lacchia
 License: MIT
 
-Files: ./mando/napoleon/
+Files: ./mando/napoleon/*
 Copyright: 2007-2017 by the Sphinx team
 License: BSD-3-Clause
 

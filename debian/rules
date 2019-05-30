@@ -16,8 +16,10 @@ export PYBUILD_NAME=mando
 	dh $@ --with python3 --buildsystem=pybuild
 
 override_dh_auto_test:
-	${RM} -r .pybuild/
-	python3 setup.py test
+	ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
+		${RM} -r .pybuild/
+		python3 setup.py test
+	endif
 
 override_dh_auto_build:
 	python3 setup.py build
@@ -28,4 +30,3 @@ override_dh_auto_clean:
 	python3 setup.py clean -a
 	${RM} -r .pytest_cache/ ./mando/__pycache__ ./mando/napoleon/__pycache__
 	${RM} -r .pybuild/ mando/tests/__pycache__
-
