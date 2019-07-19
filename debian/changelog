@@ -1,6 +1,10 @@
 mando (0.6.4-5) UNRELEASED; urgency=medium
 
+  [ Neil Williams ]
   * Migrate to the Debian Python team.
+
+  [ Ondřej Nový ]
+  * Use debhelper-compat instead of debian/compat.
 
  -- Neil Williams <codehelp@debian.org>  Sun, 26 May 2019 14:22:16 +0100
 
