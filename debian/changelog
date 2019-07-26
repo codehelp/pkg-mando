@@ -6,6 +6,7 @@ mando (0.6.4-5) UNRELEASED; urgency=medium
   [ Ondřej Nový ]
   * Use debhelper-compat instead of debian/compat.
   * Bump Standards-Version to 4.4.0.
+  * d/control: Remove ancient X-Python3-Version field.
 
  -- Neil Williams <codehelp@debian.org>  Sun, 26 May 2019 14:22:16 +0100
 
