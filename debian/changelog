@@ -1,4 +1,4 @@
-mando (0.6.4-5) UNRELEASED; urgency=medium
+mando (0.6.4-5) unstable; urgency=medium
 
   [ Neil Williams ]
   * Migrate to the Debian Python team.
@@ -8,7 +8,7 @@ mando (0.6.4-5) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.4.0.
   * d/control: Remove ancient X-Python3-Version field.
 
- -- Neil Williams <codehelp@debian.org>  Sun, 26 May 2019 14:22:16 +0100
+ -- Neil Williams <codehelp@debian.org>  Sun, 28 Jul 2019 15:50:12 +0100
 
 mando (0.6.4-4) unstable; urgency=medium
 
